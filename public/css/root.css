@@ -1,17 +1,17 @@
-root {
+:root {
     margin: 0;
     padding: 0;
 
-    --black: var(#011627);
-    --white: var(#fdfffc);
-    --primary: var(#2ec4b6);
-    --secondary: var(#ff9f1c);
-    --tertiary: var(#e71d36);
+    --color-black: var(#011627);
+    --color-white: var(#fdfffc);
+    --color-primary: var(#2ec4b6);
+    --color-secondary: var(#ff9f1c);
+    --color-tertiary: var(#e71d36);
 
     --font-heading: var("Spectral", serif);
     --font-body: var("Karla", sans-serif);
 }
 
-body{
+body {
     min-height: 100%;
 }

@@ -1,7 +1,7 @@
 body,
 html {
     height: 100%;
-    font-family: var(--font-body);
+    font-family: "Karla", sans-serif;
     font-size: 16px;
 }
 
@@ -15,7 +15,7 @@ html {
 
 .isi{
     padding-top: 1rem;
-    background-color: var(--white);
+    background-color: #fdfffc;
     height: 100vh;
 }
 
@@ -24,17 +24,28 @@ html {
 }
 
 .text-heading{
-    font-family: var(--font-heading);
+    font-family: "Spectral", serif;
     font-size: 48px;
 }
 
 .text-heading-2{
     margin-top: 1rem;
-    font-family: var(--font-heading);
+    font-family: "Spectral", serif;
     font-size: 20px;
 }
 
 .btn-primary{
-    background-color: var(--primary);
-    font-family: var(--font-heading);
+    background-color: #2ec4b6;
+    border-color: #2ec4b6;
+    color: #fdfffc !important;
+    font-family: "Spectral", serif;
+}
+
+.btn-primary:hover{
+    background-color: #209181;
+    border-color: #209181;
+} 
+
+.link{
+    color: #2ec4b6;
 }

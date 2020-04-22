@@ -12,26 +12,24 @@
                     <div class="text-center text-heading">
                         Register
                     </div>
-                    <form method="POST" class="center" action="">
+                    @include('inc.message')
+                    <form method="POST" class="center" action="{{url('/register')}}">
+                        @csrf
                         <div class="form-group">
-                            <label for="username">Full Name</label>
-                            <input type="text" class="form-control" id="username">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" name="fullname">
                         </div>
                         <div class="form-group">
-                            <label for="username">Email</label>
-                            <input type="email" class="form-control" id="username">
-                        </div>
-                        <div class="form-group">
-                            <label for="username">Phone Number</label>
-                            <input type="text" class="form-control" id="username">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
                         </div>
                         <div class="form-group">
                             <label for="username">Username</label>
-                            <input type="text" class="form-control" id="username">
+                            <input type="text" class="form-control" id="username" name="username">
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password">
+                            <input type="password" class="form-control" id="password" name="password">
                         </div>
                         <div class="center">
                             <input type="submit" class="btn btn-primary" value="Register">
